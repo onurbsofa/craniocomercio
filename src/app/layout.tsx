@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "../lib/utils"
 import {Header}  from "../components/header";
 import {Footer}  from "../components/footer";
+import {Carrousel} from "@/components/ui/carrouselANT"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
           )}
         >
         <Header />
+        <Carrousel/>
           {children}
         <Footer />
       </body>

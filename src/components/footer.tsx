@@ -8,7 +8,7 @@ export function Footer() {
         "bg-background text-black"
       )}
     >
-      <p>Cranio</p>
+      <img src="cranio.png" alt="" />
     </footer>
   );
 }
